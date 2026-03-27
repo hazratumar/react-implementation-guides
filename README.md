@@ -13,6 +13,9 @@ Internal reference docs for the frontend team. This repo covers how key features
 - [Routes & Menu Items](docs/routes-and-menu-items-implementation.md)
   How to add new pages to the app by configuring Routes and Menu Items in Frappe. Covers the 3-level hierarchy (Route → Menu Item → Sub Menu Item), all `page_view` types (List, Custom Page, Report, Sub Menu), form types (Modal vs Page), and role-based visibility.
 
+- [Notification](docs/notification-react-implementation.md)
+  How the notification bell works: fetching `Notification Log` entries for the current user, real-time updates via Frappe socket (`useEventListener`), marking single or all notifications as read, and navigating to the related record via `getFormPath`.
+
 - [Workflow](docs/workflow-react-implementation.md)
   The full frontend workflow system: detecting workflow-enabled doctypes, fetching state and available actions via `useWorkflowInfo`, rendering `WorkflowActions` buttons, and the differences between `FormPage` and `FormModal` workflow handling.
 
