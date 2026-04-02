@@ -19,6 +19,9 @@ Internal reference docs for the frontend team. This repo covers how key features
 - [Workflow](docs/workflow-react-implementation.md)
   The full frontend workflow system: detecting workflow-enabled doctypes, fetching state and available actions via `useWorkflowInfo`, rendering `WorkflowActions` buttons, and the differences between `FormPage` and `FormModal` workflow handling.
 
+- [Offline Screen](docs/offline-screen-implementation.md)
+  How the app detects connectivity loss and renders a fallback screen. Covers the `useOnlineStatus` hook, root-level integration in `App.jsx`, auto-recovery when the connection is restored, and manual retry logic.
+
 ## Stack
 
 - React + React Router (frontend)
