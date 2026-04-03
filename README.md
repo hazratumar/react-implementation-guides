@@ -20,7 +20,7 @@ Internal reference docs for the frontend team. This repo covers how key features
   The full frontend workflow system: detecting workflow-enabled doctypes, fetching state and available actions via `useWorkflowInfo`, rendering `WorkflowActions` buttons, and the differences between `FormPage` and `FormModal` workflow handling.
 
 - [Network Status](docs/network-status-react-implementation.md)
-  How the app monitors online/offline status and displays a "Connection Lost" modal. Covers the `useNetworkStatus` hook, request interception to prevent errors during connectivity loss, the `NetworkModal` component with glassmorphic UI, and automatic recovery when connection is restored.
+  How the app monitors online/offline status and displays a non-intrusive "Connection Lost" modal overlay. Covers the `useNetworkStatus` hook, request interception to prevent errors during connectivity loss, the `NetworkModal` component with glassmorphic UI, and automatic recovery when connection is restored. Uses a modal approach instead of full-screen routing to preserve form data and user context.
 
 ## Stack
 
