@@ -123,3 +123,7 @@ The modal's look is controlled via CSS variables in `NetworkModal.css`, making i
 ```
 
 Support for "Restored" state is triggered by the `.online` class added to the modal content.
+
+## Demo
+
+<video controls src="Screencast%20from%2004-03-2026%2004:49:51%20PM.webm" title="Network Status Implementation Overview"></video>
