@@ -19,8 +19,8 @@ Internal reference docs for the frontend team. This repo covers how key features
 - [Workflow](docs/workflow-react-implementation.md)
   The full frontend workflow system: detecting workflow-enabled doctypes, fetching state and available actions via `useWorkflowInfo`, rendering `WorkflowActions` buttons, and the differences between `FormPage` and `FormModal` workflow handling.
 
-- [Offline Screen](docs/offline-screen-implementation.md)
-  How the app detects connectivity loss and renders a fallback screen. Covers the `useOnlineStatus` hook, root-level integration in `App.jsx`, auto-recovery when the connection is restored, and manual retry logic.
+- [Network Status](docs/network-status-react-implementation.md)
+  How the app monitors online/offline status and displays a "Connection Lost" modal. Covers the `useNetworkStatus` hook, request interception to prevent errors during connectivity loss, the `NetworkModal` component with glassmorphic UI, and automatic recovery when connection is restored.
 
 ## Stack
 
