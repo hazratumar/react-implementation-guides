@@ -22,6 +22,9 @@ Internal reference docs for the frontend team. This repo covers how key features
 - [Network Status](docs/network-status-react-implementation.md)
   How the app monitors online/offline status and displays a non-intrusive "Connection Lost" modal overlay. Covers the `useNetworkStatus` hook, request interception to prevent errors during connectivity loss, the `NetworkModal` component with glassmorphic UI, and automatic recovery when connection is restored. Uses a modal approach instead of full-screen routing to preserve form data and user context.
 
+- [Record History](docs/record-history-react-implementation.md)
+  How record audit history is fetched, normalized, grouped by day, and rendered in the history drawer. Covers the `RecordHistory` component, the `get_document_history` backend contract, and the timeline layout used in `ViewDrawer`.
+
 ## Stack
 
 - React + React Router (frontend)
